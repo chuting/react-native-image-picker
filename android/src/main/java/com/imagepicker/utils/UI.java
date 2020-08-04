@@ -36,7 +36,7 @@ public class UI
         final List<String> actions = buttons.getActions();
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 context,
-                R.layout.list_item,
+                android.R.layout.simple_expandable_list_item_1,
                 titles
         );
         AlertDialog.Builder builder = new AlertDialog.Builder(context, module.getDialogThemeId() /*android.R.style.Theme_Holo_Light_Dialog*/);
